@@ -1,0 +1,42 @@
+h1{
+    font-size: 150%;
+    font-style: initial;
+    text-align: center;
+}
+p1{
+    font-style: italic;
+text-align: center;
+    font-size: 125%;
+}
+#table{
+    width: 100%;
+}
+#table th td{
+    column-gap: 2px;
+    border: 2px solid blackS;
+}
+#table {
+    border-spacing: 5px;
+  }
+  th {
+    text-align: center;
+  }
+  th, td {
+    padding: 25px;
+  }
+  #table, th, td {
+    border: 3px solid green;
+    border-collapse: collapse;
+     font-size: 25px;
+     width: auto;
+     height: auto;
+     text-align: center;
+  }
+  th{
+      background-color: yellow;
+  }
+td{
+    background-color: turquoise;
+}
+
+

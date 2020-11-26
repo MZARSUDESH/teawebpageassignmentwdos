@@ -1,0 +1,27 @@
+
+legend{
+    background-color: grey;
+    font-size: 125%;
+    text-align: center;
+}
+#customerdetails{
+    background-color: khaki;
+    text-align: center;
+}
+#teamanuf{
+    background-color: khaki;
+    text-align: center;
+}
+#packagetype{
+    background-color: khaki;
+    text-align: center;
+}
+
+#quantitysize{
+    background-color: khaki;
+    text-align: center;
+}
+#extra{
+    background-color: khaki;
+    text-align: center;
+}

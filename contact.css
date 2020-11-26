@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+h{
+    font-size: 150%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(49, 24, 24);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+background-color:white;
+
+  }
+  input[type=email],select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(49, 24, 24);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color:white;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #f70707;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+   background-image: url(images/contact.jpg);
+   background-size: cover;
+    padding: 20px;
+  }

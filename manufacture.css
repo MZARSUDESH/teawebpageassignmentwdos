@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-style: initial;
+}
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: 125%;
+}
+#pic1{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%
+}
+#pic2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    display: block;
+}
+#pic3{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: auto;
+}
+a {
+    text-decoration-color: black;
+    text-emphasis-color: black;
+}
+.box1{
+    margin: 1em;
+    border-color: black;
+    background-color: burlywood;
+}
+.box2{
+    background-color: white;
+    margin: 1.5em;
+    border: solid;
+    border-color: green;
+}
+.box3{
+    background-color: white;
+    margin: 1.5em;
+    border: solid;
+    border-color:blue;
+}
+.box4{
+    background-color: white;
+    margin: 1.5em;
+    border: solid;
+    border-color:black;
+}
+a{
+    text-decoration: none;
+    
+}
+.button{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    align-items: center;
+}
+ .css1{
+    background-color: chartreuse;
+}
+.css2{
+    background-color: royalblue;
+}
+.middle{
+    text-align: center;
+}

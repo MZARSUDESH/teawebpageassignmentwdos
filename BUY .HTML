@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>CEYLONESE TEA </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/pngt" href="images/ceylonese logo.png">
+  <link rel="stylesheet" href="navigation.css">
+  <link rel="stylesheet" href="buy.css">
+  <link rel="stylesheet" href="foot.CSS">
+</head>
+<body>
+  <script src="buy.js"></script>
+        <div class="navbar">
+       <div class="logo_div" >
+         <a href="home.html"><img src="images/the logo.png" class="logo"></a>
+       </div>
+       
+<a href="#" class="toggle-button">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+       <div class="navbar_links">
+     <ul class="menu">
+      <li><a href="HOMEPAGE.HTML">HOME</a></li>
+      <li><a href="TYPETEA .HTML">VARIETIES OF TEA</a></li>
+      <li><a href="SL MANUFACTURE .HTML">LANKAN TEA MANUFACTURES</a></li>
+      <li><a href="BUY .HTML">MAKE YOUR PURCHASE</a></li>
+      <li><a href="CONTACTUS.HTML">CONTACT US</a></li>
+     </ul>
+       </div>
+     </div>
+     <br>
+
+     <main> 
+      <section id="customerdetails">
+        <form method="GET">
+          <fieldset>
+            <legend>Customer Details</legend>
+            <p>
+              <label for="name">Full Name:</label>
+              <input type="text" id="cusname" required>
+            </p>
+            <p>
+              <label for="number">Conatct Number:</label>
+              <input type="number" id="telnumber" required>
+            </p>
+            <label for="mail">Email:</label>
+              <input type="text" id="email">
+          </fieldset>
+        </form>
+      </section>
+      <section id="teamanuf">
+        <form method="GET">
+          <fieldset>
+            <legend>Tea Manufacture Companies</legend>
+        <p>Dilma : <input type="radio" name="tea" id="dil"></p> 
+        <p>Jones : <input type="radio" name="tea" id="jon"></p>
+        <p>George Steuart : <input type="radio" name="tea" id="geo"></p> 
+        <p>Malwatte Valley Plantation : <input type="radio" name="tea" id="mal"></p> 
+        <p>Prestige Ceylon Teas: <input type="radio" name="tea" id="pres"></p>
+        <p>Empire teas : <input type="radio" name="tea" id="emp"></p> 
+      </fieldset>
+      </form>
+    </section>
+    <section id="packagetype">
+      <form method="GET">
+        <fieldset>
+      <legend>Packaging Type :</legend>
+      <p>Paper Pouche : <input type="radio" name="package" id="papo"></p>
+      <p>Tin (defalut): <input type="radio" name="package" id="tin" checked></p>
+      <p>Bag : <input type="radio" name="package" id="bag"></p> 
+    </fieldset>
+  </form>
+    </section>
+    <section id="quantitysize">
+      <form method="GET">
+        <fieldset>
+      <legend> Quantity Size :</legend>
+      <p>Small : <input type="radio" name="size" id="small"></p>
+      <p>Medium (default): <input type="radio" name="size" id="Medium" checked></p>
+      <p>Large : <input type="radio" name="size" id="large"></p> 
+    </fieldset>
+  </form>
+    </section>
+    <section id="extra">
+      <form method="GET">
+        <fieldset>
+          <legend> Extra Items:</legend>
+          <p>Mug : <input type="checkbox" id="mug"></p>
+          <p>sivler Pin : <input type="checkbox" id="silver"></p> 
+          <p>Wooden Souvenir : <input type="checkbox" id="wooden" ></p>
+        </fieldset>
+      </form>
+    </section>
+    <br>
+    <div>
+      <section><button id="addorder">Add Order</button></section><br>
+      <section><button id="order">Place Order</button></section><br>
+      <section><button id="addFavourite">Add To Favourite</button>&emsp;<button id="orderfavourite">Order Favourite</button></section><br>
+      <section><button id="checkloyalty">Check Loyalty</button></section><br>
+    </div>
+     <br>
+     <div>
+      <fieldset><legend>Customer Details</legend>
+      <p id="customername"></p>
+      <p id="customernumber"></p>
+      <p id="customermail"></p>
+      </fieldset> 
+      <fieldset><legend>Current Order</legend>
+      <p id="co"></p></fieldset>
+      <fieldset><legend>Current order Cost</legend>
+      <p id="Coc">0</p></fieldset>
+      <fieldset><legend>Overall Order</legend>
+      <p id="overo"></p>
+      </fieldset>
+      <fieldset><legend>Overall Order Cost</legend>
+      <p id="ooc">0</p></fieldset>
+      <fieldset><legend>Loyalty Points</legend>
+      <p id="loyaltyp"></p>
+      </fieldset>
+      </div>
+
+    </main>
+    <br>
+     <footer>
+                
+      <ul>
+       <li> <a href="CONTACTUS.HTML">Inquer for information</a></li>
+       <li> <a href="CONTACTUS.HTML">Privacy and Terms</a></li>
+       <li>  <a href="CONTACTUS.HTML">Branches</a> </li>
+        </ul>
+    <p>CEYLONESE TEA. 337, DEMATAGODA ROA, COLOMBO-09 , SRI LANKA.
+      <br>
+      CONATCT NUMBER= +94 76 763 1240
+      <br>
+      E-MAIL:CEYLONESETEAINFO@GMAIL.COM</p>
+            
+    
+    </footer>
+    </body>
+    </html>

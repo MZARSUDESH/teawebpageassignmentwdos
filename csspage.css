@@ -1,0 +1,126 @@
+.button{
+    background-color: #4CAF50;
+    text-align: center;
+}
+.button1 {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 14px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 3px 1px;
+cursor: pointer;
+box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2), 0 5px 19px 0 rgba(0,0,0,0.19);
+}
+.button2{
+    background-color: #4CAF50;
+border: none;
+color: white;
+padding: 14px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 3px 1px;
+cursor: pointer;
+box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2), 0 5px 19px 0 rgba(0,0,0,0.19);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+#image1{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid green;
+   width: 40%;
+}
+.box1{
+    border: 4px solid black;
+    margin: 4em;
+    background-color: rgb(236, 236, 78);
+}
+h2{
+    text-align: left;
+    font-size: 50px;
+}
+.fadebox {
+    position: relative;
+    width: 50%;
+   
+  }
+#image2{
+   
+    width: 100%;
+    transition: .6s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+}
+.appear{
+    transition: .7s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.fadebox:hover #image2{
+    opacity: 0.2;
+}
+.words{
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+    padding: 17px 34px;
+}
+.fadebox:hover .appear{
+    opacity: 1;
+}
+h3{
+    text-align: center;
+    font-style: initial;
+    font-size: 175%;
+    text-shadow: 1px 2px;
+}
+.listcenter{
+    text-align: center;
+}
+ul{
+    width: 400px; 
+	margin-left: auto; 
+    margin-right: auto; 
+    display: inline-block; 
+    text-align: left;
+    font-size: 90%;
+}
+.box2{
+    border: 4px solid black;
+    margin: 4em;
+    background-color: rgb(236, 236, 78);
+}
+.box3{
+    border: 6px solid black;
+    margin:  4em;
+    background-color: white;
+}
+.box4{
+    border: 6px solid black;
+    margin:  4em;
+    background-color: yellow;
+}
+h4{
+    text-align: center;
+    font-size: 125%;
+}
+p2{
+ text-align: center;
+    font-size: 25px;
+}
